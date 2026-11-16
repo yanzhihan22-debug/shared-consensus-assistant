@@ -1,0 +1,164 @@
+{
+  "st7789": {
+    "name": "ST7789",
+    "pins": [
+      {
+        "pin": "GND",
+        "desc": ""
+      },
+      {
+        "pin": "VCC",
+        "desc": ""
+      },
+      {
+        "pin": "SCL",
+        "desc": ""
+      },
+      {
+        "pin": "SDA",
+        "desc": ""
+      },
+      {
+        "pin": "RES",
+        "desc": ""
+      },
+      {
+        "pin": "DC",
+        "desc": ""
+      },
+      {
+        "pin": "CS",
+        "desc": ""
+      },
+      {
+        "pin": "BLK",
+        "desc": ""
+      }
+    ],
+    "photos": [
+      "ref_images/ST7789/1.jpg",
+      "ref_images/ST7789/2.jpg",
+      "ref_images\\ST7789\\cam_1785488818.jpg"
+    ]
+  },
+  "sg90": {
+    "name": "SG90",
+    "pins": [
+      {
+        "pin": "YELLOW",
+        "desc": ""
+      },
+      {
+        "pin": "RED",
+        "desc": ""
+      },
+      {
+        "pin": "BROWN",
+        "desc": ""
+      }
+    ],
+    "photos": [
+      "ref_images/SG90/1.jpg",
+      "ref_images/SG90/2.jpg",
+      "ref_images/SG90/3.jpg",
+      "ref_images/SG90/cam_1785488449.jpg",
+      "ref_images/SG90/cam_1785488491.jpg",
+      "ref_images/SG90/cam_1785488732.jpg"
+    ]
+  },
+  "inmp441": {
+    "name": "INMP441",
+    "pins": [
+      {
+        "pin": "SD",
+        "desc": ""
+      },
+      {
+        "pin": "VDD",
+        "desc": ""
+      },
+      {
+        "pin": "GND",
+        "desc": ""
+      },
+      {
+        "pin": "L/R",
+        "desc": ""
+      },
+      {
+        "pin": "WS",
+        "desc": ""
+      },
+      {
+        "pin": "SCK",
+        "desc": ""
+      }
+    ],
+    "photos": [
+      "ref_images/INMP441/1.jpg",
+      "ref_images/INMP441/2.jpg"
+    ]
+  },
+  "esp32-s3-cam": {
+    "name": "ESP32-S3-CAM",
+    "pins": [],
+    "photos": [
+      "ref_images/ESP32-S3-CAM/1.jpg",
+      "ref_images/ESP32-S3-CAM/2.jpg",
+      "ref_images/ESP32-S3-CAM/3.jpg",
+      "ref_images/ESP32-S3-CAM/cam_1785488401.jpg",
+      "ref_images/ESP32-S3-CAM/cam_1785488775.jpg",
+      "ref_images/ESP32-S3-CAM/cam_1785488805.jpg",
+      "ref_images/ESP32-S3-CAM/cam_1785488841.jpg",
+      "ref_images/ESP32-S3-CAM/cam_1785488852.jpg",
+      "ref_images/ESP32-S3-CAM/cam_1785488858.jpg",
+      "ref_images/ESP32-S3-CAM/cam_20260731.jpg"
+    ]
+  },
+  "max98357a": {
+    "name": "MAX98357A",
+    "pins": [
+      {
+        "pin": "LRC",
+        "desc": ""
+      },
+      {
+        "pin": "BCLK",
+        "desc": ""
+      },
+      {
+        "pin": "DIN",
+        "desc": ""
+      },
+      {
+        "pin": "GAIN",
+        "desc": ""
+      },
+      {
+        "pin": "SD",
+        "desc": ""
+      },
+      {
+        "pin": "GND",
+        "desc": ""
+      },
+      {
+        "pin": "VIN",
+        "desc": ""
+      }
+    ],
+    "photos": [
+      "ref_images/MAX98357A/1.jpg",
+      "ref_images/MAX98357A/2.jpg"
+    ]
+  },
+  "bread_board": {
+    "name": "BREAD BOARD",
+    "pins": [],
+    "photos": [
+      "ref_images/BREAD BOARD/1.jpg",
+      "ref_images/BREAD BOARD/2.jpg",
+      "ref_images/BREAD BOARD/3.jpg"
+    ]
+  }
+}

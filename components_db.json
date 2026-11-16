@@ -1,0 +1,2020 @@
+{
+  "sg90": {
+    "name": "SG90 Micro Servo Motor",
+    "keywords": [
+      "servo",
+      "micro servo",
+      "9g servo",
+      "SG90",
+      "RC servo"
+    ],
+    "specs": {
+      "voltage": "4.8V-6V",
+      "current": "150mA (stall)"
+    },
+    "pins": [
+      {
+        "pin": "Signal (Orange)",
+        "color": "orange",
+        "desc": "PWM control signal (50Hz, 1-2ms pulse)"
+      },
+      {
+        "pin": "VCC (Red)",
+        "color": "red",
+        "desc": "Power supply positive (4.8-6V)"
+      },
+      {
+        "pin": "GND (Brown)",
+        "color": "brown",
+        "desc": "Ground"
+      }
+    ],
+    "usage": "Used for small-scale robotics, RC models, pan/tilt mechanisms, and hobbyist projects requiring precise angular rotation (0-180 degrees).",
+    "image": "C:\\Users\\ASUS\\Desktop\\sharedconsensus\\seg_version\\consensus_crops\\kb_sg90.jpg",
+    "hash": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "st7789": {
+    "name": "ST7789",
+    "keywords": [
+      "TFT LCD",
+      "driver IC",
+      "SPI",
+      "240x240",
+      "1.3 inch",
+      "display controller"
+    ],
+    "specs": {
+      "voltage": "1.65V to 3.3V (logic), 2.4V to 3.3V (LCD)",
+      "current": "5mA (typical)"
+    },
+    "pins": [
+      {
+        "pin": "1",
+        "color": "red",
+        "desc": "VCC (3.3V power)"
+      },
+      {
+        "pin": "2",
+        "color": "black",
+        "desc": "GND (ground)"
+      },
+      {
+        "pin": "3",
+        "color": "blue",
+        "desc": "SCL (SPI clock)"
+      },
+      {
+        "pin": "4",
+        "color": "green",
+        "desc": "SDA (SPI data)"
+      },
+      {
+        "pin": "5",
+        "color": "yellow",
+        "desc": "RES (reset, active low)"
+      },
+      {
+        "pin": "6",
+        "color": "orange",
+        "desc": "DC (data/command select)"
+      },
+      {
+        "pin": "7",
+        "color": "white",
+        "desc": "CS (chip select, active low)"
+      },
+      {
+        "pin": "8",
+        "color": "brown",
+        "desc": "BL (backlight control, optional)"
+      }
+    ],
+    "usage": "Small color TFT display driver for embedded systems, wearables, and IoT devices; commonly used in 1.3-inch 240x240 round or square LCD modules with SPI interface.",
+    "image": "C:\\Users\\ASUS\\Desktop\\sharedconsensus\\seg_version\\consensus_crops\\kb_st7789.jpg",
+    "hash": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "esp32s3cam": {
+    "name": "ESP32-S3-CAM",
+    "keywords": [
+      "ESP32-S3",
+      "camera module",
+      "AI-Thinker",
+      "OV2640",
+      "WiFi",
+      "Bluetooth",
+      "low-power",
+      "image processing"
+    ],
+    "specs": {
+      "voltage": "5V",
+      "current": "310mA"
+    },
+    "pins": [
+      {
+        "pin": "GND",
+        "color": "black",
+        "desc": "Ground"
+      },
+      {
+        "pin": "3.3V",
+        "color": "red",
+        "desc": "3.3V power input"
+      },
+      {
+        "pin": "5V",
+        "color": "orange",
+        "desc": "5V power input (USB or external)"
+      },
+      {
+        "pin": "GPIO0",
+        "color": "yellow",
+        "desc": "Boot mode select (low for flash)"
+      },
+      {
+        "pin": "GPIO4",
+        "color": "green",
+        "desc": "Camera XCLK"
+      },
+      {
+        "pin": "GPIO5",
+        "color": "blue",
+        "desc": "Camera PCLK"
+      },
+      {
+        "pin": "GPIO12",
+        "color": "violet",
+        "desc": "Camera D7 / JTAG TDI"
+      },
+      {
+        "pin": "GPIO13",
+        "color": "gray",
+        "desc": "Camera D6 / JTAG TCK"
+      },
+      {
+        "pin": "GPIO14",
+        "color": "white",
+        "desc": "Camera D5 / JTAG TMS"
+      },
+      {
+        "pin": "GPIO15",
+        "color": "brown",
+        "desc": "Camera D4 / JTAG TDO"
+      },
+      {
+        "pin": "GPIO16",
+        "color": "pink",
+        "desc": "Camera D3"
+      },
+      {
+        "pin": "GPIO17",
+        "color": "lightblue",
+        "desc": "Camera D2"
+      },
+      {
+        "pin": "GPIO18",
+        "color": "lightgreen",
+        "desc": "Camera D1"
+      },
+      {
+        "pin": "GPIO19",
+        "color": "lightyellow",
+        "desc": "Camera D0"
+      },
+      {
+        "pin": "GPIO21",
+        "color": "lightgray",
+        "desc": "Camera VSYNC"
+      },
+      {
+        "pin": "GPIO22",
+        "color": "darkgray",
+        "desc": "Camera HREF"
+      },
+      {
+        "pin": "GPIO23",
+        "color": "darkgreen",
+        "desc": "Camera PWDN"
+      },
+      {
+        "pin": "GPIO25",
+        "color": "darkblue",
+        "desc": "Camera XCLK (alternate)"
+      },
+      {
+        "pin": "GPIO26",
+        "color": "darkred",
+        "desc": "Camera SIOD (I2C data)"
+      },
+      {
+        "pin": "GPIO27",
+        "color": "darkorange",
+        "desc": "Camera SIOC (I2C clock)"
+      },
+      {
+        "pin": "GPIO32",
+        "color": "purple",
+        "desc": "Camera RESET"
+      },
+      {
+        "pin": "GPIO33",
+        "color": "teal",
+        "desc": "Camera XCLK (alternate)"
+      },
+      {
+        "pin": "GPIO34",
+        "color": "cyan",
+        "desc": "Camera D8 (if used)"
+      },
+      {
+        "pin": "GPIO35",
+        "color": "magenta",
+        "desc": "Camera D9 (if used)"
+      },
+      {
+        "pin": "GPIO36",
+        "color": "lime",
+        "desc": "Camera D10 (if used)"
+      },
+      {
+        "pin": "GPIO39",
+        "color": "olive",
+        "desc": "Camera D11 (if used)"
+      },
+      {
+        "pin": "GPIO48",
+        "color": "navy",
+        "desc": "LED flash control"
+      },
+      {
+        "pin": "GPIO45",
+        "color": "maroon",
+        "desc": "PSRAM chip select (internal)"
+      }
+    ],
+    "usage": "Embedded camera system for IoT applications such as smart doorbells, surveillance cameras, face recognition, time-lapse photography, and remote monitoring with WiFi/Bluetooth connectivity.",
+    "image": "C:\\Users\\ASUS\\Desktop\\sharedconsensus\\seg_version\\consensus_crops\\kb_esp32s3cam.jpg",
+    "hash": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "speaker": {
+    "name": "Speaker",
+    "type": "audio transducer",
+    "voltage": "3-5V (typical for small modules)",
+    "pins": [
+      {
+        "name": "+",
+        "color": "red",
+        "desc": "positive signal/power input"
+      },
+      {
+        "name": "-",
+        "color": "black",
+        "desc": "negative/ground"
+      }
+    ],
+    "usage": "Converts electrical audio signals into sound waves for audible output.",
+    "buy_link": "https://so.szlcsc.com/search?keyword=Speaker",
+    "keywords": [
+      "speaker",
+      "speaker"
+    ]
+  },
+  "esp32-cam": {
+    "name": "ESP32-CAM",
+    "type": "microcontroller module with camera",
+    "voltage": "5V",
+    "pins": [
+      {
+        "name": "VCC",
+        "color": "red",
+        "desc": "power input 5V"
+      },
+      {
+        "name": "GND",
+        "color": "black",
+        "desc": "ground"
+      },
+      {
+        "name": "U0RXD",
+        "color": "yellow",
+        "desc": "UART receive (GPIO3)"
+      },
+      {
+        "name": "U0TXD",
+        "color": "green",
+        "desc": "UART transmit (GPIO1)"
+      },
+      {
+        "name": "GPIO0",
+        "color": "blue",
+        "desc": "boot mode select / flash button"
+      },
+      {
+        "name": "GPIO2",
+        "color": "white",
+        "desc": "on-board LED control"
+      },
+      {
+        "name": "GPIO4",
+        "color": "orange",
+        "desc": "camera flash / general I/O"
+      },
+      {
+        "name": "GPIO12",
+        "color": "purple",
+        "desc": "camera XCLK / I2C SCL"
+      },
+      {
+        "name": "GPIO13",
+        "color": "gray",
+        "desc": "camera VSYNC / I2C SDA"
+      },
+      {
+        "name": "GPIO14",
+        "color": "brown",
+        "desc": "camera HREF"
+      },
+      {
+        "name": "GPIO15",
+        "color": "pink",
+        "desc": "camera PCLK"
+      },
+      {
+        "name": "GPIO16",
+        "color": "cyan",
+        "desc": "camera D0"
+      },
+      {
+        "name": "GPIO17",
+        "color": "magenta",
+        "desc": "camera D1"
+      },
+      {
+        "name": "GPIO5",
+        "color": "lime",
+        "desc": "camera D2"
+      },
+      {
+        "name": "GPIO18",
+        "color": "teal",
+        "desc": "camera D3"
+      },
+      {
+        "name": "GPIO19",
+        "color": "navy",
+        "desc": "camera D4"
+      },
+      {
+        "name": "GPIO21",
+        "color": "olive",
+        "desc": "camera D5"
+      },
+      {
+        "name": "GPIO22",
+        "color": "maroon",
+        "desc": "camera D6"
+      },
+      {
+        "name": "GPIO23",
+        "color": "silver",
+        "desc": "camera D7"
+      },
+      {
+        "name": "GPIO33",
+        "color": "gold",
+        "desc": "camera XCLK alternative / general I/O"
+      },
+      {
+        "name": "GPIO34",
+        "color": "coral",
+        "desc": "camera PWDN (input only)"
+      },
+      {
+        "name": "GPIO35",
+        "color": "indigo",
+        "desc": "camera RESET (input only)"
+      },
+      {
+        "name": "GPIO32",
+        "color": "violet",
+        "desc": "camera SIOD / general I/O"
+      },
+      {
+        "name": "GPIO25",
+        "color": "tan",
+        "desc": "camera SIOC / general I/O"
+      },
+      {
+        "name": "GPIO26",
+        "color": "plum",
+        "desc": "camera D2 alternative / general I/O"
+      },
+      {
+        "name": "GPIO27",
+        "color": "chocolate",
+        "desc": "camera D3 alternative / general I/O"
+      }
+    ],
+    "usage": "ESP32-based development board with integrated OV2640 camera, supports Wi-Fi and Bluetooth, used for IoT camera applications, video streaming, face detection, and image capture.",
+    "buy_link": "https://so.szlcsc.com/search?keyword=ESP32-CAM",
+    "keywords": [
+      "esp32-cam",
+      "esp32-cam"
+    ]
+  },
+  "mpu-9150": {
+    "name": "MPU-9150",
+    "type": "9-axis MEMS motion tracking device (gyroscope, accelerometer, magnetometer)",
+    "voltage": "2.4V to 3.6V",
+    "pins": [
+      {
+        "name": "VCC",
+        "color": "red",
+        "desc": "power input 2.4V-3.6V"
+      },
+      {
+        "name": "GND",
+        "color": "black",
+        "desc": "ground"
+      },
+      {
+        "name": "SCL",
+        "color": "yellow",
+        "desc": "I2C clock line"
+      },
+      {
+        "name": "SDA",
+        "color": "green",
+        "desc": "I2C data line"
+      },
+      {
+        "name": "VLOGIC",
+        "color": "orange",
+        "desc": "logic reference voltage (1.8V typical)"
+      },
+      {
+        "name": "AD0",
+        "color": "blue",
+        "desc": "I2C address select (LOW=0x68, HIGH=0x69)"
+      },
+      {
+        "name": "INT",
+        "color": "violet",
+        "desc": "interrupt output"
+      },
+      {
+        "name": "FSYNC",
+        "color": "grey",
+        "desc": "frame synchronization digital input"
+      },
+      {
+        "name": "AUX_CL",
+        "color": "brown",
+        "desc": "auxiliary I2C master clock"
+      },
+      {
+        "name": "AUX_DA",
+        "color": "white",
+        "desc": "auxiliary I2C master data"
+      },
+      {
+        "name": "NC",
+        "color": "pink",
+        "desc": "no connect"
+      }
+    ],
+    "usage": "Provides 3-axis gyroscope, 3-axis accelerometer, and 3-axis magnetometer data for orientation, motion tracking, and heading in applications like drones, robotics, VR/AR, and smartphones.",
+    "buy_link": "https://so.szlcsc.com/search?keyword=MPU-9150",
+    "keywords": [
+      "mpu-9150",
+      "mpu-9150"
+    ]
+  },
+  "57": {
+    "name": "57 Stepper Motor",
+    "type": "stepper motor",
+    "voltage": "2.8V - 5.6V (typical, varies by model)",
+    "pins": [
+      {
+        "name": "A+",
+        "color": "black",
+        "desc": "Coil A positive"
+      },
+      {
+        "name": "A-",
+        "color": "green",
+        "desc": "Coil A negative"
+      },
+      {
+        "name": "B+",
+        "color": "red",
+        "desc": "Coil B positive"
+      },
+      {
+        "name": "B-",
+        "color": "blue",
+        "desc": "Coil B negative"
+      }
+    ],
+    "usage": "NEMA 23 hybrid stepper motor, 57mm frame size, used in CNC, 3D printers, robotics for precise rotational positioning.",
+    "buy_link": "https://so.szlcsc.com/search?keyword=57",
+    "keywords": [
+      "57",
+      "57"
+    ]
+  },
+  "max98357": {
+    "name": "MAX98357",
+    "type": "audio amplifier module",
+    "voltage": "2.5V to 5.5V",
+    "pins": [
+      {
+        "name": "VIN",
+        "color": "red",
+        "desc": "power input 2.5-5.5V"
+      },
+      {
+        "name": "GND",
+        "color": "black",
+        "desc": "ground"
+      },
+      {
+        "name": "BCLK",
+        "color": "yellow",
+        "desc": "I2S bit clock input"
+      },
+      {
+        "name": "LRC",
+        "color": "orange",
+        "desc": "I2S left/right clock input"
+      },
+      {
+        "name": "DIN",
+        "color": "green",
+        "desc": "I2S data input"
+      },
+      {
+        "name": "GAIN",
+        "color": "blue",
+        "desc": "gain select (tie to VIN or GND)"
+      },
+      {
+        "name": "SD",
+        "color": "gray",
+        "desc": "shutdown (active low, tie to VIN for normal operation)"
+      },
+      {
+        "name": "OUT+",
+        "color": "white",
+        "desc": "positive speaker output"
+      },
+      {
+        "name": "OUT-",
+        "color": "brown",
+        "desc": "negative speaker output"
+      }
+    ],
+    "usage": "I2S digital audio input to analog output amplifier for driving small speakers (up to 3.2W at 4Ω)",
+    "buy_link": "https://so.szlcsc.com/search?keyword=max98357",
+    "keywords": [
+      "max98357",
+      "max98357"
+    ]
+  },
+  "breadboard": {
+    "name": "Breadboard",
+    "type": "prototyping board",
+    "voltage": "N/A (passive)",
+    "pins": [],
+    "usage": "A solderless breadboard is used for building and testing electronic circuits without soldering. It has rows of interconnected holes for inserting component leads and wires.",
+    "buy_link": "https://so.szlcsc.com/search?keyword=breadboard",
+    "keywords": [
+      "breadboard",
+      "breadboard"
+    ]
+  },
+  "mpu-6050": {
+    "name": "MPU-6050",
+    "type": "6-axis MEMS motion tracking device (accelerometer + gyroscope)",
+    "voltage": "2.375V to 3.46V (VCC), 3V typical; logic level 3.3V",
+    "pins": [
+      {
+        "name": "VCC",
+        "color": "red",
+        "desc": "power input 2.375V to 3.46V"
+      },
+      {
+        "name": "GND",
+        "color": "black",
+        "desc": "ground"
+      },
+      {
+        "name": "SCL",
+        "color": "yellow",
+        "desc": "I2C clock line"
+      },
+      {
+        "name": "SDA",
+        "color": "green",
+        "desc": "I2C data line"
+      },
+      {
+        "name": "XDA",
+        "color": "blue",
+        "desc": "auxiliary I2C data line (optional)"
+      },
+      {
+        "name": "XCL",
+        "color": "purple",
+        "desc": "auxiliary I2C clock line (optional)"
+      },
+      {
+        "name": "AD0",
+        "color": "gray",
+        "desc": "I2C address select (low=0x68, high=0x69)"
+      },
+      {
+        "name": "INT",
+        "color": "orange",
+        "desc": "interrupt output"
+      }
+    ],
+    "usage": "Measures acceleration (up to ±16g) and angular velocity (up to ±2000°/s) for motion tracking, orientation sensing, and gesture detection in drones, robots, smartphones, and IMU modules.",
+    "buy_link": "https://so.szlcsc.com/search?keyword=MPU-6050",
+    "keywords": [
+      "mpu-6050",
+      "mpu-6050"
+    ]
+  },
+  "esp32": {
+    "name": "ESP32",
+    "voltage": "not mentioned",
+    "pins": [
+      {
+        "name": "GPIO0",
+        "color": "",
+        "desc": "MIC_CLK, Strapping"
+      },
+      {
+        "name": "GPIO1",
+        "color": "",
+        "desc": "MIC_DATA, Safe (PWM)"
+      },
+      {
+        "name": "GPIO2",
+        "color": "",
+        "desc": "TFT_DC, Safe (PWM) [LCD DC]"
+      },
+      {
+        "name": "GPIO3",
+        "color": "",
+        "desc": "Y5, Strapping (JTAG)"
+      },
+      {
+        "name": "GPIO4",
+        "color": "",
+        "desc": "TFT_WR, Safe (PWM)"
+      },
+      {
+        "name": "GPIO5",
+        "color": "",
+        "desc": "TFT_D7, Safe (PWM)"
+      },
+      {
+        "name": "GPIO6",
+        "color": "",
+        "desc": "TFT_D6, Safe (PWM)"
+      },
+      {
+        "name": "GPIO7",
+        "color": "",
+        "desc": "TFT_D5, Safe (PWM)"
+      },
+      {
+        "name": "GPIO8",
+        "color": "",
+        "desc": "TFT_D4, Safe (PWM)"
+      },
+      {
+        "name": "GPIO9",
+        "color": "",
+        "desc": "SD_CLK, Avoid (strapping)"
+      },
+      {
+        "name": "GPIO10",
+        "color": "",
+        "desc": "SS / TFT_D3, Strapping"
+      },
+      {
+        "name": "GPIO11",
+        "color": "",
+        "desc": "MOSI, Strapping"
+      },
+      {
+        "name": "GPIO12",
+        "color": "",
+        "desc": "SCK, Strapping"
+      },
+      {
+        "name": "GPIO13",
+        "color": "",
+        "desc": "MISO, Strapping"
+      },
+      {
+        "name": "GPIO14",
+        "color": "",
+        "desc": "Y4, Strapping"
+      },
+      {
+        "name": "GPIO15",
+        "color": "",
+        "desc": "TFT_D2, Safe (PWM)"
+      },
+      {
+        "name": "GPIO16",
+        "color": "",
+        "desc": "TFT_D1, Safe (PWM)"
+      },
+      {
+        "name": "GPIO17",
+        "color": "",
+        "desc": "I2C_SDA, Safe (PWM)"
+      },
+      {
+        "name": "GPIO18",
+        "color": "",
+        "desc": "I2C_SCL, Safe (PWM)"
+      },
+      {
+        "name": "GPIO19",
+        "color": "",
+        "desc": "SD_DATA, UART"
+      },
+      {
+        "name": "GPIO20",
+        "color": "",
+        "desc": "SD_CMD, UART"
+      },
+      {
+        "name": "GPIO21",
+        "color": "",
+        "desc": "VSYNC, Safe (PWM)"
+      },
+      {
+        "name": "GPIO38",
+        "color": "",
+        "desc": "HREF, Strapping"
+      },
+      {
+        "name": "GPIO39",
+        "color": "",
+        "desc": "Y9 / MTCK, JTAG TCK"
+      },
+      {
+        "name": "GPIO40",
+        "color": "",
+        "desc": "XCLK / MTDO, JTAG TDO"
+      },
+      {
+        "name": "GPIO41",
+        "color": "",
+        "desc": "Y8 / MTDI, JTAG TDI"
+      },
+      {
+        "name": "GPIO42",
+        "color": "",
+        "desc": "Y7 / MTMS, JTAG TMS"
+      },
+      {
+        "name": "GPIO43",
+        "color": "",
+        "desc": "TX, Strapping UART0 TXD"
+      },
+      {
+        "name": "GPIO44",
+        "color": "",
+        "desc": "RX, Strapping UART0 RXD"
+      },
+      {
+        "name": "GPIO45",
+        "color": "",
+        "desc": "TFT_D0, Strapping (flash voltage)"
+      },
+      {
+        "name": "GPIO47",
+        "color": "",
+        "desc": "Y3, Strapping (Octal SPI)"
+      }
+    ],
+    "usage": "ESP32-S3-CAM LCD Board with OV2640 camera, ST7789 display, INMP441 mic, microSD slot, WiFi, BLE, USB-C",
+    "source": "ESP32-S3-CAM_pinout.pdf",
+    "keywords": [
+      "esp32",
+      "esp32",
+      "esp8266",
+      "(95%)",
+      "|",
+      "esp32",
+      "(5%)",
+      "|",
+      "nodemcu",
+      "(0%)"
+    ],
+    "pdf": "ESP32-S3-CAM_pinout.pdf"
+  },
+  "mg90s": {
+    "name": "MG90S",
+    "voltage": "4.8 - 6.0V",
+    "pins": [
+      {
+        "name": "GND",
+        "color": "Brown",
+        "desc": "Ground"
+      },
+      {
+        "name": "VCC",
+        "color": "Red",
+        "desc": "Power supply (4.8-6V)"
+      },
+      {
+        "name": "Signal",
+        "color": "Orange",
+        "desc": "PWM control signal (50Hz)"
+      }
+    ],
+    "usage": "Micro servo with metal gears, 180° rotation, controlled by 50Hz PWM (1ms=-90°, 1.5ms=0°, 2ms=+90°)",
+    "source": "MG90S.pdf",
+    "keywords": [
+      "mg90s",
+      "mg90s",
+      "mg90s",
+      "(100%)"
+    ],
+    "pdf": "MG90S.pdf"
+  },
+  "esp32-s3-cam": {
+    "name": "esp32-s3-cam",
+    "voltage": "not mentioned",
+    "pins": [
+      {
+        "name": "GPIO0",
+        "color": "",
+        "desc": "MIC_CLK, Strapping"
+      },
+      {
+        "name": "GPIO1",
+        "color": "",
+        "desc": "MIC_DATA, Safe (PWM)"
+      },
+      {
+        "name": "GPIO2",
+        "color": "",
+        "desc": "TFT_DC, Safe (PWM) [LCD DC]"
+      },
+      {
+        "name": "GPIO3",
+        "color": "",
+        "desc": "Y5, Strapping (JTAG)"
+      },
+      {
+        "name": "GPIO4",
+        "color": "",
+        "desc": "TFT_WR, Safe (PWM)"
+      },
+      {
+        "name": "GPIO5",
+        "color": "",
+        "desc": "TFT_D7, Safe (PWM)"
+      },
+      {
+        "name": "GPIO6",
+        "color": "",
+        "desc": "TFT_D6, Safe (PWM)"
+      },
+      {
+        "name": "GPIO7",
+        "color": "",
+        "desc": "TFT_D5, Safe (PWM)"
+      },
+      {
+        "name": "GPIO8",
+        "color": "",
+        "desc": "TFT_D4, Safe (PWM)"
+      },
+      {
+        "name": "GPIO9",
+        "color": "",
+        "desc": "SD_CLK, Avoid (strapping)"
+      },
+      {
+        "name": "GPIO10",
+        "color": "",
+        "desc": "SS / TFT_D3, Strapping"
+      },
+      {
+        "name": "GPIO11",
+        "color": "",
+        "desc": "MOSI, Strapping"
+      },
+      {
+        "name": "GPIO12",
+        "color": "",
+        "desc": "SCK, Strapping"
+      },
+      {
+        "name": "GPIO13",
+        "color": "",
+        "desc": "MISO, Strapping"
+      },
+      {
+        "name": "GPIO14",
+        "color": "",
+        "desc": "Y4, Strapping"
+      },
+      {
+        "name": "GPIO15",
+        "color": "",
+        "desc": "TFT_D2, Safe (PWM)"
+      },
+      {
+        "name": "GPIO16",
+        "color": "",
+        "desc": "TFT_D1, Safe (PWM)"
+      },
+      {
+        "name": "GPIO17",
+        "color": "",
+        "desc": "I2C_SDA, Safe (PWM)"
+      },
+      {
+        "name": "GPIO18",
+        "color": "",
+        "desc": "I2C_SCL, Safe (PWM)"
+      },
+      {
+        "name": "GPIO19",
+        "color": "",
+        "desc": "SD_DATA, UART"
+      },
+      {
+        "name": "GPIO20",
+        "color": "",
+        "desc": "SD_CMD, UART"
+      },
+      {
+        "name": "GPIO21",
+        "color": "",
+        "desc": "VSYNC, Safe (PWM)"
+      },
+      {
+        "name": "GPIO38",
+        "color": "",
+        "desc": "HREF, Strapping"
+      },
+      {
+        "name": "GPIO39",
+        "color": "",
+        "desc": "Y9 / MTCK, JTAG TCK"
+      },
+      {
+        "name": "GPIO40",
+        "color": "",
+        "desc": "XCLK / MTDO, JTAG TDO"
+      },
+      {
+        "name": "GPIO41",
+        "color": "",
+        "desc": "Y8 / MTDI, JTAG TDI"
+      },
+      {
+        "name": "GPIO42",
+        "color": "",
+        "desc": "Y7 / MTMS, JTAG TMS"
+      },
+      {
+        "name": "GPIO43",
+        "color": "",
+        "desc": "TX, Strapping UART0 TXD"
+      },
+      {
+        "name": "GPIO44",
+        "color": "",
+        "desc": "RX, Strapping UART0 RXD"
+      },
+      {
+        "name": "GPIO45",
+        "color": "",
+        "desc": "TFT_D0, Strapping (flash voltage)"
+      },
+      {
+        "name": "GPIO47",
+        "color": "",
+        "desc": "Y3, Strapping (Octal SPI)"
+      }
+    ],
+    "usage": "ESP32-S3-CAM LCD Board with OV2640 camera, ST7789 display, INMP441 mic, microSD slot, WiFi/BLE, USB-C",
+    "source": "ESP32-S3-CAM_pinout.pdf",
+    "keywords": [
+      "esp32-s3-cam",
+      "esp32-s3-cam",
+      "clip:0.98"
+    ],
+    "pdf": "ESP32-S3-CAM_pinout.pdf"
+  },
+  "max98357a": {
+    "name": "MAX98357A",
+    "voltage": "2.5V to 5.5V",
+    "pins": [
+      {
+        "name": "VIN",
+        "color": "red",
+        "desc": "Power supply input (2.5V-5.5V)"
+      },
+      {
+        "name": "GND",
+        "color": "black",
+        "desc": "Ground"
+      },
+      {
+        "name": "SD",
+        "color": "yellow",
+        "desc": "Shutdown (active low, pull high to enable)"
+      },
+      {
+        "name": "GAIN",
+        "color": "green",
+        "desc": "Gain selection (tied to VIN, GND, or floating for different gains)"
+      },
+      {
+        "name": "IN+",
+        "color": "blue",
+        "desc": "Positive audio input (I2S data)"
+      },
+      {
+        "name": "IN-",
+        "color": "purple",
+        "desc": "Negative audio input (I2S data, typically tied to GND)"
+      },
+      {
+        "name": "BCLK",
+        "color": "orange",
+        "desc": "Bit clock input (I2S)"
+      },
+      {
+        "name": "LRCLK",
+        "color": "brown",
+        "desc": "Left/right clock input (I2S)"
+      },
+      {
+        "name": "SPK+",
+        "color": "white",
+        "desc": "Speaker positive output"
+      },
+      {
+        "name": "SPK-",
+        "color": "gray",
+        "desc": "Speaker negative output"
+      }
+    ],
+    "usage": "I2S digital audio amplifier for driving small speakers, commonly used with microcontrollers like ESP32 or Raspberry Pi.",
+    "keywords": [
+      "max98357a",
+      "max98357a"
+    ]
+  },
+  "esp32-s3": {
+    "name": "ESP32-S3",
+    "voltage": "not mentioned",
+    "pins": [
+      {
+        "name": "GPIO0",
+        "color": "",
+        "desc": "MIC_CLK, Strapping"
+      },
+      {
+        "name": "GPIO1",
+        "color": "",
+        "desc": "MIC_DATA, Safe (PWM)"
+      },
+      {
+        "name": "GPIO2",
+        "color": "",
+        "desc": "TFT_DC, Safe (PWM) [LCD DC]"
+      },
+      {
+        "name": "GPIO3",
+        "color": "",
+        "desc": "Y5, Strapping (JTAG)"
+      },
+      {
+        "name": "GPIO4",
+        "color": "",
+        "desc": "TFT_WR, Safe (PWM)"
+      },
+      {
+        "name": "GPIO5",
+        "color": "",
+        "desc": "TFT_D7, Safe (PWM)"
+      },
+      {
+        "name": "GPIO6",
+        "color": "",
+        "desc": "TFT_D6, Safe (PWM)"
+      },
+      {
+        "name": "GPIO7",
+        "color": "",
+        "desc": "TFT_D5, Safe (PWM)"
+      },
+      {
+        "name": "GPIO8",
+        "color": "",
+        "desc": "TFT_D4, Safe (PWM)"
+      },
+      {
+        "name": "GPIO9",
+        "color": "",
+        "desc": "SD_CLK, Avoid (strapping)"
+      },
+      {
+        "name": "GPIO10",
+        "color": "",
+        "desc": "SS / TFT_D3, Strapping"
+      },
+      {
+        "name": "GPIO11",
+        "color": "",
+        "desc": "MOSI, Strapping"
+      },
+      {
+        "name": "GPIO12",
+        "color": "",
+        "desc": "SCK, Strapping"
+      },
+      {
+        "name": "GPIO13",
+        "color": "",
+        "desc": "MISO, Strapping"
+      },
+      {
+        "name": "GPIO14",
+        "color": "",
+        "desc": "Y4, Strapping"
+      },
+      {
+        "name": "GPIO15",
+        "color": "",
+        "desc": "TFT_D2, Safe (PWM)"
+      },
+      {
+        "name": "GPIO16",
+        "color": "",
+        "desc": "TFT_D1, Safe (PWM)"
+      },
+      {
+        "name": "GPIO17",
+        "color": "",
+        "desc": "I2C_SDA, Safe (PWM)"
+      },
+      {
+        "name": "GPIO18",
+        "color": "",
+        "desc": "I2C_SCL, Safe (PWM)"
+      },
+      {
+        "name": "GPIO19",
+        "color": "",
+        "desc": "SD_DATA, UART"
+      },
+      {
+        "name": "GPIO20",
+        "color": "",
+        "desc": "SD_CMD, UART"
+      },
+      {
+        "name": "GPIO21",
+        "color": "",
+        "desc": "VSYNC, Safe (PWM)"
+      },
+      {
+        "name": "GPIO38",
+        "color": "",
+        "desc": "HREF, Strapping"
+      },
+      {
+        "name": "GPIO39",
+        "color": "",
+        "desc": "Y9 / MTCK, JTAG TCK"
+      },
+      {
+        "name": "GPIO40",
+        "color": "",
+        "desc": "XCLK / MTDO, JTAG TDO"
+      },
+      {
+        "name": "GPIO41",
+        "color": "",
+        "desc": "Y8 / MTDI, JTAG TDI"
+      },
+      {
+        "name": "GPIO42",
+        "color": "",
+        "desc": "Y7 / MTMS, JTAG TMS"
+      },
+      {
+        "name": "GPIO43",
+        "color": "",
+        "desc": "TX, Strapping UART0 TXD"
+      },
+      {
+        "name": "GPIO44",
+        "color": "",
+        "desc": "RX, Strapping UART0 RXD"
+      },
+      {
+        "name": "GPIO45",
+        "color": "",
+        "desc": "TFT_D0, Strapping (flash voltage)"
+      },
+      {
+        "name": "GPIO47",
+        "color": "",
+        "desc": "Y3, Strapping (Octal SPI)"
+      }
+    ],
+    "usage": "ESP32-S3-CAM LCD Board with OV2640 camera and ST7789 display",
+    "source": "ESP32-S3-CAM_pinout.pdf",
+    "keywords": [
+      "esp32-s3",
+      "esp32-s3"
+    ],
+    "pdf": "ESP32-S3-CAM_pinout.pdf"
+  }
+}

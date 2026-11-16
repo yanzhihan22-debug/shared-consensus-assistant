@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Secrets / local state
+taobao_state.json
+config.local.py
+*.pem
+*.key
+
+# Model weights (download separately)
+*.pt
+*.pth
+*.onnx
+yolov8s-seg.pt
+
+# Runtime output
+consensus_crops/
+*.log
+taobao_result.png
+
+# Build output
+build/
+.pio/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+
+# Media (use GitHub Releases / Bilibili for demo videos)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gif
+!docs/images/*.gif
+
+# Office / personal documents
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local data / user photos
+ref_images/*
+!ref_images/README.md
+datasheets/*.pdf

@@ -1,0 +1,22 @@
+# Core
+opencv-python>=4.8
+numpy>=1.24
+torch>=2.0
+ultralytics>=8.0
+mediapipe>=0.10
+Pillow>=10.0
+
+# Backend recognition
+open-clip-torch>=2.24
+playwright>=1.40
+
+# Knowledge base / LLM
+PyMuPDF>=1.23
+requests>=2.31
+python-dotenv>=1.0
+dashscope>=1.14
+
+# Serial / voice
+pyserial>=3.5
+websocket-client>=1.7
+pyaudio>=0.2.14
