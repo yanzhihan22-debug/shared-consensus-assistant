@@ -8,11 +8,10 @@
   <b>关键词：</b>YOLOv8-seg · MediaPipe · 时序共识 · OpenCLIP · 视觉搜索 · DeepSeek · ESP32-S3
 </p>
 
-> 🎬 **演示视频（待上传到 GitHub Releases / Bilibili）**  
-> 识别模式 / 接线模式 / 淘宝链接 三段视频见 [`docs/media.md`](docs/media.md)。  
-> 上传后把链接替换到此处即可。
-
----
+> 🎬 演示视频：
+> [识别模式](https://github.com/yanzhihan22-debug/shared-consensus-assistant/releases/download/v1.0-demo/recognition.mp4) ·
+> [接线模式](https://github.com/yanzhihan22-debug/shared-consensus-assistant/releases/download/v1.0-demo/wiring.mp4) ·
+> [淘宝链接](https://github.com/yanzhihan22-debug/shared-consensus-assistant/releases/download/v1.0-demo/taobao.mp4)
 
 ## 1. 这个项目解决什么问题
 
